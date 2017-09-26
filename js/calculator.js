@@ -6,6 +6,10 @@ function Calculator() {
         return l-e;
     };
     this.divide = function(l, e) {
+        if(e==0){
+            return NaN;
+        }
+
         return l/e;
     };
 };
