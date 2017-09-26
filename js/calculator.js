@@ -1,1 +1,3 @@
-console.log("CALCULATOR");
+function Calculator() {
+	
+};
