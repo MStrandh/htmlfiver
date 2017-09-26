@@ -28,6 +28,6 @@ describe("A calculator", function() {
 	it("can divide by zero", function () {
 		var calc = new Calculator();
 		var div = calc.divide(10, 0);
-		expect(div).toEqual(NaN);
+		expect(div).toBeNaN();
 	});
 });
