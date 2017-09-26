@@ -5,4 +5,7 @@ function Calculator() {
     this.subtract = function(l, e) {
         return l-e;
     };
+    this.divide = function(l, e) {
+        return l/e;
+    };
 };
