@@ -18,4 +18,10 @@ describe("A calculator", function() {
 		var sub = calc.subtract(5, 3);
 		expect(sub).toEqual(2);
 	});
+
+	it("can divide 10/5", function () {
+		var calc = new Calculator();
+		var div = calc.divide(10, 5);
+		expect(div).toEqual(2);
+	});
 });
