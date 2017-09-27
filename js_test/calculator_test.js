@@ -6,7 +6,6 @@ describe("A calculator", function() {
 		expect(sum).toEqual(2);
 	});
 
-
 	it("can sum 5+7", function () {
 		var calc = new Calculator();
 		var sum = calc.sum(5, 7);
@@ -29,5 +28,11 @@ describe("A calculator", function() {
 		var calc = new Calculator();
 		var div = calc.divide(10, 0);
 		expect(div).toBeNaN();
+	});
+
+	it("can sum an array with only numbers", function () {
+		var calc = new Calculator();
+		var sum = calc.sumArray([1, 2, 3, 4, 5, 6, 7]);
+		expect(sum).toEqual(28);
 	});
 });
