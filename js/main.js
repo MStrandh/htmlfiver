@@ -1,1 +1,7 @@
-console.log("HTML FIVER");
+function setup() {
+
+}
+
+function draw() {
+	
+}
