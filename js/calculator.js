@@ -18,7 +18,9 @@ function Calculator() {
     this.sumArray = function(data) {
         var sum = 0;
 
-        // Write for-loop to sum each element in the data array
+        for (i = 0; i < data.length; i++) {
+            sum += data[i];
+        }
 
         return sum;
     };
