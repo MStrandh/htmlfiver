@@ -132,7 +132,7 @@ module.exports = function(grunt) {
 	// -- DEFAULT IS TO DO A FULL RELEASE BUILD
 	grunt.registerTask('default', [
 		'clean',
-		'jshint',
+
 		'scriptlinker',
 		'copy',
 		'useminPrepare',
