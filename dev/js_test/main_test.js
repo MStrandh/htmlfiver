@@ -1,22 +1,24 @@
 describe("Boat tools", function() {
 
-	describe("can compare boats - ", function() {
+	describe("can compare boats", function() {	
+
 
 		/***************** TEST ****************/
 		/*
 		 * Hint: Make sure isTugBoat returns false
 		 */
-		it("It checks if a boat is not a TugBoat", function() {
-			var result = isTugBoat("Envik");
+		it("to verify that a boat is not a tug boat", function() {
+			var result = isTugBoat("Östanvik");
 
 			expect(result).toEqual(false);
 		});
+
 
 		/***************** TEST ****************/
 		/*
 		 * Pseudo code:
 		 * - Check if boatName equals "Leif"; use the operator: ==
-		 * - If it does not equals "Leif": return false
+		 * - If it does not equal "Leif", then return false
 		 *
 		 * Hint:
 		 * - Use console.log(..) often; See if you can print 'boatName' to see what is passed in as a parameter.
@@ -24,11 +26,33 @@ describe("Boat tools", function() {
 		 * - You only need to use if(..) { ..}; you don't need an else for this.
 		 * - Remember that 'return' ends the function. Nothing else will happen after return.
 		 */
-		// it("checks that a boat is a TugBoat", function() {
+		// it("to verify that a boat is a tug boat", function() {
 		// 	var result = isTugBoat("Leif");
 
 		// 	expect(result).toEqual(true);
 		// });
+
+
+		/***************** TEST ****************/
+		/*
+		 * Hint: Make sure isCementCarrier returns false
+		 */
+		// it("to verify that a boat is not a cement carrier", function() {
+		// 	var result = isCementCarrier("Leif");
+
+		// 	expect(result).toEqual(false);
+		// });
+
+		/***************** TEST ****************/
+		/*
+		 * Hint: If boatName is equal to Östanvik then return true
+		 */
+		// it("to verify that a boat is a cement carrier", function() {
+		// 	var result = isCementCarrier("Östanvik");
+
+		// 	expect(result).toEqual(true);
+		// });
+
 	});
 
 
