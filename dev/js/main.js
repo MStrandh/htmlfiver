@@ -1,4 +1,9 @@
 function isTugBoat(boatName) {
+
+}
+
+function isCementCarrier(boatName) {
+
 }
 
 function getHarbour() {
