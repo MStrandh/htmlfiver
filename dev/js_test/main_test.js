@@ -1,7 +1,38 @@
 describe("Boat tools", function() {
 
-	describe("has a function called getHarbour", function() {
+	describe("can compare boats - ", function() {
 
+		/***************** TEST ****************/
+		/*
+		 * Hint: Make sure isTugBoat returns false
+		 */
+		it("It checks if a boat is not a TugBoat", function() {
+			var result = isTugBoat("Envik");
+
+			expect(result).toEqual(false);
+		});
+
+		/***************** TEST ****************/
+		/*
+		 * Pseudo code:
+		 * - Check if boatName equals "Leif"; use the operator: ==
+		 * - If it does not equals "Leif": return false
+		 *
+		 * Hint:
+		 * - Use console.log(..) often; See if you can print 'boatName' to see what is passed in as a parameter.
+		 * - Double-check your strings. "Leif" is not the same as "leif".
+		 * - You only need to use if(..) { ..}; you don't need an else for this.
+		 * - Remember that 'return' ends the function. Nothing else will happen after return.
+		 */
+		// it("checks that a boat is a TugBoat", function() {
+		// 	var result = isTugBoat("Leif");
+
+		// 	expect(result).toEqual(true);
+		// });
+	});
+
+
+	describe("has a function called getHarbour", function() {
 
 		/***************** TEST ****************/
 		it("that exists", function() {
@@ -60,4 +91,6 @@ describe("Boat tools", function() {
 		// 	expect(boatName).toBe("", "Hint: use if-clause to check the parameter");
 		// });
 	});
+
+
 });

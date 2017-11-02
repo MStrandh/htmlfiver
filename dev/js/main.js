@@ -1,3 +1,6 @@
+function isTugBoat(boatName) {
+}
+
 function getHarbour() {
     return "Gröndal";
 }
